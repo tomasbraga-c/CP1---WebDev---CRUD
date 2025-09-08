@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girl football</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Girl Football</h1>
+        <button id="btnAdicionar" class="btn-principal">
+            <i class="fas fa-plus"></i> Adicionar Jogadora
+        </button>
+    </header>
+
+    <main>
+        <div id="cards-container" class="cards-container">
+            </div>
+    </main>
+
+    <div id="modal-adicionar" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="adicionar">&times;</span>
+            <h2>Adicionar Nova Jogadora</h2>
+            <form id="form-adicionar">
+                <input type="text" id="add-nome" placeholder="Nome da Jogadora" required>
+                <input type="text" id="add-posicao" placeholder="Posição" required>
+                <input type="text" id="add-clube" placeholder="Clube" required>
+                <input type="url" id="add-foto" placeholder="URL da Foto" required>
+                <input type="number" id="add-gols" placeholder="Gols" required>
+                <input type="number" id="add-assistencias" placeholder="Assistências" required>
+                <input type="number" id="add-jogos" placeholder="Jogos" required>
+                <button type="submit">Salvar</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="modal-editar" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="editar">&times;</span>
+            <h2>Editar Informações</h2>
+            <form id="form-editar">
+                <input type="hidden" id="edit-index">
+                <input type="text" id="edit-nome" placeholder="Nome da Jogadora" required>
+                <input type="text" id="edit-posicao" placeholder="Posição" required>
+                <input type="text" id="edit-clube" placeholder="Clube" required>
+                <input type="url" id="edit-foto" placeholder="URL da Foto" required>
+                <input type="number" id="edit-gols" placeholder="Gols" required>
+                <input type="number" id="edit-assistencias" placeholder="Assistências" required>
+                <input type="number" id="edit-jogos" placeholder="Jogos" required>
+                <button type="submit">Atualizar</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+<script src="/src/js/script.js"></script>
+</html>
