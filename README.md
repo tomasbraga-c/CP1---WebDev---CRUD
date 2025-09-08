@@ -39,7 +39,7 @@ A aplicação é um sistema simples de **cadastro, listagem, edição e exclusã
 ## 🌐 Publicação no GitHub Pages
 
 O projeto foi publicado no **GitHub Pages** e pode ser acessado no link:  
-👉 [Acessar aplicação online](https://seu-usuario.github.io/cp1-webdev-crud)
+👉 [Acessar aplicação online](https://tomasbraga-c.github.io/CP1---WebDev---CRUD/)
 
 ---
 
